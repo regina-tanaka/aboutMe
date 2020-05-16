@@ -1,21 +1,166 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regina Tanaka</title>
     <link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
     <header>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav>
-        <h1 class="site-title"> Regina Tanaka </h1>
-        <h2 class="site-subtitle"> Analista de Informática</h2>
-      </header>
-</body>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Interesses</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">Regina Tanaka</h1>
+        <h2 class="site-subtitle">Analista de Sistemas</h2>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
+
+      <figure class="avatar">
+        <img src="./img2/flores.jpg" alt="Paulo Silveira">
+      </figure>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quidem
+        atque architecto, odit doloremque consectetur vero! Aut fugit neque
+        sequi id non rerum facilis incidunt explicabo. Officia beatae vitae
+        laudantium!
+      </p>
+
+      <p>
+        Tenetur dicta rem ut aliquid quo eos non expedita impedit. Ipsa sapiente
+        corrupti iusto eum similique voluptatum magni velit sit ab, vitae quas,
+        perspiciatis excepturi, vel quaerat itaque dicta repudiandae?
+      </p>
+
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+      <p>
+        Unde necessitatibus fugiat similique aperiam ipsa voluptatum ex commodi
+        repellendus! Sequi libero accusantium facere quis, dolores voluptate
+        itaque distinctio natus iure, quibusdam eaque. Laborum incidunt nesciunt
+        facere aperiam quibusdam inventore.
+      </p>
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        😻
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Interesses</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img2/culinaria.jpg" alt="Culinária">
+            </figure>
+            <div class="card-back">
+              <h3>Amo cozinhar... e comer!!!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img2/familia.jpg" alt="Família">
+            </figure>
+            <div class="card-back">
+              <h3>Minha família é linda e maravilhosa!!!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img2/organizacao.jpg" alt="Organização">
+            </figure>
+            <div class="card-back">
+				      <h3>Meu sonho!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img2/viagens.jpg" alt="Viagens">
+            </figure>
+            <div class="card-back">
+              <h3>Relaxar, descansar, passear, tudo de bom!</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img2/musica.jpg" alt="Música">
+            </figure>
+          <div class="card-back">
+            <h3>Ouvir música é viajar no tempo e na emoção!</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="card">
+          <figure class="card-front">
+            <img class="img-portfolio" src="./img2/livro.jpg" alt="Livros e Filmes">
+          </figure>
+        <div class="card-back">
+          <h3>Ler e assistir, para descontrair e passar o tempo...</h3>
+        </div>
+      </div>
+    </div>
+
+    </section>
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="#" title="Github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="#" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="#" title="Linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a target="_blank" href="#" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
